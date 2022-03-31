@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -230,12 +229,12 @@ header {
 	width: 100%;
 	background-color: transparent!important;
 	/* background-color: blue!important; */
-	height: 70px;
+	height: 69px;
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-	background-color: rgba(255, 255, 255, 0.849)!important;
+	background-color: rgba(255, 255, 255, 0.54)!important;
 }
 header .navbar {
 	padding: 20px 0px;
@@ -262,7 +261,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #a4c639!important;
+	color: #ff0000!important;
 	
 }
 .navbar .navbar-brand {
@@ -318,7 +317,7 @@ header .navbar {
 	
 }
 .navbar .navbar-toggler {
-	border-color: #fff;
+	border-color: rgba(255, 0, 0, 0.96);
 	background-color: #fff;	
 	height: 36px;
 	outline: none;
@@ -330,7 +329,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #a4c639;
+	color: #666c95;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -386,7 +385,7 @@ header .navbar {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height:84vh;
+	height:93vh;
 }
 
 .Modern-Slider .item-1 .img-fill {
@@ -525,7 +524,7 @@ ul.slick-dots {
 /* Request Form */
 
 .request-form {
-	background-color: #000000;
+	background-color: #242424;
 	padding: 5px 0px;
 	color: #fff;
 }

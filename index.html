@@ -21,8 +21,8 @@
 
 
     <!-- CHAT BOT -->
-    <script src="https://chat.valentabpo.onereach.ai/lib/richWebChat.umd.min.js"></script>
-    <link rel="stylesheet" href="https://chat.valentabpo.onereach.ai/lib/richWebChat.css"/>
+   <script src="https://chat.valentabpo.onereach.ai/lib/richWebChat.umd.min.js"></script>
+<link rel="stylesheet" href="https://chat.valentabpo.onereach.ai/lib/richWebChat.css"/>
 <!--
 
 
@@ -222,35 +222,38 @@
       })
     });
   </script> -->
-  <div id="rwc"></div>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var RWC = richWebChat.default
-      var app = new RWC({
-        container: '#rwc', // DOM element selector where chat will be inserted
-        chatUrl: 'https://chat.valentabpo.onereach.ai/y2L3j9GsTDK1yvKBgWbpFw/0y3m19a', // url of your chat. required
-        autoExpandDelay: 15000,
-        position: 'bottom-right',
-        inviteMessage: "",
-        inviteButton: "",
-        inviteImage: undefined,
-        showCloseIcon: false,
-        inviteTimeout: 5000,
-        allowChangeChatWindowSize: true,
-        allowDrag: false,
-        widgetColor: '#FFFFFF',
-        allowStartNewConversation: true,
-        thumbLogo: 'https://i.giphy.com/media/433QvwNRBKfW4Mgn5t/giphy.webp',
-        animation: 'pulse', // 'pulse', 'ring', 'zoom',
-        appearance: {
-          blurredBackground: false
-        },
-        pageData: {
-          fname: 'foo'
-        }
-      })
-    });
-  </script>
+    
+ <!-- insert code below into <body> -->
+<div id="rwc"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var RWC = richWebChat.default
+    var app = new RWC({
+      container: '#rwc', // DOM element selector where chat will be inserted
+      chatUrl: 'https://chat.valentabpo.onereach.ai/y2L3j9GsTDK1yvKBgWbpFw/0h7lnq6', // url of your chat. required
+      autoExpandDelay: 15000,
+      position: 'bottom-right',
+      inviteMessage: "",
+      inviteButton: "",
+      inviteImage: undefined,
+      showCloseIcon: false,
+      inviteTimeout: 5000,
+      allowChangeChatWindowSize: false,
+      allowDrag: true,
+      widgetColor: '#FFFFFF',
+      allowStartNewConversation: false,
+      thumbLogo: 'https://i.giphy.com/media/433QvwNRBKfW4Mgn5t/giphy.webp
+',
+      animation: 'pulse', // 'pulse', 'ring', 'zoom',
+      appearance: {
+        blurredBackground: false
+      },
+      pageData: {
+        fname: 'foo'
+      }
+    })
+  });
+</script>
 
   </body>
 </html>
